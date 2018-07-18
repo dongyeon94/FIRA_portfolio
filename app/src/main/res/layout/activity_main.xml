@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Order"
+        android:background="#ffcccccc"
+    android:layout_weight="0.10"
+        android:layout_alignParentStart="true"
+        android:elegantTextHeight="false"
+        android:onClick="onClick"
+        android:layout_above="@+id/btn_4"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="PlaceOfOrigin"
+        android:layout_weight="0.10"
+        android:background="#ffcccccc"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btn_1"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="CookingView"
+        android:layout_weight="0.10"
+        android:background="#ffcccccc"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick20"
+        android:nestedScrollingEnabled="false"
+        android:layout_above="@+id/btn_2"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Review"
+        android:layout_weight="0.10"
+        android:background="#ffcccccc"
+        android:onClick="onClick22"
+        android:layout_above="@+id/ven"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/ven"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:src="@drawable/ven"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
